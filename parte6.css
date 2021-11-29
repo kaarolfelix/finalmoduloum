@@ -1,0 +1,52 @@
+body {
+    height: auto; width: auto;
+}
+
+.fim {
+    background: white;
+    width: 620px; height: 170px;
+    margin: 20px 0 0 30px
+}
+
+.fim {
+    color: red;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Lobster', cursive;
+    box-shadow: 5px 5px 2px rgb(255, 255, 255);
+}
+
+.botao{
+    
+    display: flex;
+    justify-content:center;
+    flex-direction: flex;     
+    margin: 30px auto;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.botao{
+    height: 40px; width: 120px;
+    background:white ;
+    border: 5px solid #ffffff ;
+    border-radius: 15px;
+    border-width: 0vmax;
+    font-size: 12pt;    
+    color: yellow;
+    cursor: pointer;
+    text-indent: none;
+}
+
+.botao:hover {
+    background: black;
+   
+}
+
+.botao:active {
+    border-color: yellow;
+    color: yellow;
+}

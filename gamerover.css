@@ -1,0 +1,35 @@
+
+
+
+.botao{
+    
+    display: flex;
+    justify-content:center;
+    flex-direction: flex;     
+    margin: 30px auto;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.botao{
+    height: 50px; width: 150px;
+    background:white ;
+    border: 5px solid #ffffff ;
+    border-radius: 15px;
+    border-width: 0vmax;
+    font-size: 12pt;    
+    color: yellow;
+    cursor: pointer;
+    text-indent: none;
+}
+
+.botao:hover {
+    background: black;
+   
+}
+
+.botao:active {
+    border-color: yellow;
+    color: yellow;
+}

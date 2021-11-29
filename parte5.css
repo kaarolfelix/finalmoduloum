@@ -1,0 +1,57 @@
+body {
+    width: 1349px;
+}
+
+header{
+  
+    width: 1250px; height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px auto;
+}
+
+header{
+      background: green;
+      opacity: 80%;
+      color: white;
+}
+
+.vovozinha{
+    height: 300px; width: 940px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;     
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.vovozinha {
+    background: white;
+    opacity: 80%;
+    border: 5px solid #ffffff ;
+    border-radius: 20px;
+    border-width: 0vmax;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+footer {
+    
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    opacity: 80%;
+    
+}

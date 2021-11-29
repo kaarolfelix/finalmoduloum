@@ -1,0 +1,67 @@
+body {
+    height: 770px; width: 1349px;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-family: 'Lagosta', sans-serif, cursiva;
+    
+}
+
+.historia {
+    
+    height: 250px; width: 1040px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;     
+    margin: 40px 60px 0px 140px;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.historia {
+    background: white;
+    opacity: 85%;
+    border: 5px solid #ffffff ;
+    border-radius: 20px;
+    border-width: 0vmax;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    
+    display: flex;
+    justify-content:center;
+    flex-direction: column;     
+    margin: 40px 60px 0px 140px;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+nav {
+    height: 30px; width: 150px;
+    background:white ;
+    border: 5px solid #ffffff ;
+    border-radius: 15px;
+    border-width: 0vmax;
+    font-size: 17pt;    
+    color: yellow;
+    cursor: pointer;
+}
+
+nav:hover {
+    background: black;
+   
+}
+
+nav :active {
+    border-color: yellow;
+    color: yellow;
+}
+
+
