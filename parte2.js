@@ -20,12 +20,12 @@
          if (enigmaUm == 20) {
             alert ('Parabéns! passou de fase.')
             alert ('chapeuzinho contou 20 arvores no total, porque a sua direita na ida é a sua esquerda na volta, ou seja, nos dois itinerários, ela viu e contou as mesmas arvores, e não arvores diferentes.')
-            return location = "../projetofinal1/parte3.html"
+            return location = "../finalmoduloum/parte3.html"
         
         } 
          else { 
             alert ('Oh não, resposta errada! tente outra vez.');
-            return location = "../projetofinal1/game-over.html"
+            return location = "../finalmoduloum/game-over.html"
         }  
             
         }
